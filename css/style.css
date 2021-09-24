@@ -191,6 +191,7 @@ padding: .8rem 3rem;
 
 }
 
+
 .login-form-container #close-login-form{
     position: absolute;
     top:1.5rem;
@@ -378,6 +379,179 @@ padding: .8rem 3rem;
 .services .box-container .box:hover{
     background: var(--black);
     
+}
+.newsletter{
+    padding: 6rem 2rem;
+    text-align: center;
+    background: url(../image//letter-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.newsletter h3{
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.newsletter p{
+    color: var(--light-color);
+    font-size: 1.5rem; 
+    padding: 1rem 0;
+}
+.newsletter form{
+     margin: 1rem auto;
+     max-width: 60rem;
+     height: 5rem;
+     display: flex;
+     box-shadow: var(--box-shadow);
+     overflow: hidden;
+     border-radius: 5rem;
+}
+.newsletter form input[type="email"]{
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+    padding: 0 2rem;
+}
+.newsletter form input[type="submit"]{
+    height: 100%;
+    width: 20rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    background: var(--light-yellow);
+}
+.newsletter form input[type="submit"]:hover{
+  background: var(--black);
+  color: #fff;
+}
+
+.reviews .reviews-slider{
+    padding-bottom: 3rem; 
+}
+
+.reviews .reviews-slider .box{
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+    opacity: .4;
+     transform: scale(.8);
+}
+
+.reviews .reviews-slider .swiper-slide-active{
+        opacity:1;
+     transform: scale(1);
+     box-shadow: var(--box-shadow);
+     border: var(--border);
+}
+
+.reviews .reviews-slider .box img{
+    height: 7rem;
+    width: 7rem;
+    border-radius:50% ;
+    margin-bottom: 1rem;
+}
+.reviews .reviews-slider .box .content p{
+font-size: 1.7rem;
+color: var(--light-color);
+padding: 1rem 0;
+}
+.reviews .reviews-slider .box .content h3{
+font-size: 2.2rem;
+color: var(--black);
+padding-bottom: .5rem;
+}
+.reviews .reviews-slider .box .content .stars i{
+font-size: 1.7rem;
+color: var(--yellow);
+}
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.contact .row .map{
+    flex: 1 1 42rem;
+    width: 100%;
+    padding: 2rem;
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+
+
+.contact .row form{
+    flex: 1 1 42rem;
+    padding: 2rem;
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+}
+.contact .row form h3{
+    font-size: 3rem;
+    color: var(--black);
+}
+.contact .row form .box{
+margin: .7rem 0;
+ width: 100%;
+ border: var(--border);
+ padding: 1rem;
+ font-size: 1.6rem;
+ color: var(--black);
+ text-transform: none;
+ border-radius: .5rem;
+} 
+
+.contact .row form textarea{
+
+height: 15rem;
+resize: none;
+}
+
+.footer{
+    background: var(--light-yellow);
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap:1.5rem;
+} 
+.footer .box-container .box h3{
+    color: var(--black);
+    font-size: 2.2rem;
+    padding: 1rem 0;
+
+}
+.footer .box-container .box a{
+    color: var(--light-color);
+    font-size: 1.5rem;
+    display: block;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color: var(--black);
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+    color: #fff;
+    
+}
+
+.credit{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    border: var(--border);
+    padding: 1rem;
+    padding-top: 2.5rem;
+    margin-top: 2rem;
 }
 
 
